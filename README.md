@@ -1,1 +1,1 @@
-# spotify-data-viz
+# Spotify data visualization assignment
