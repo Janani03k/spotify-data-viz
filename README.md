@@ -1,1 +1,1 @@
-# Spotify visualization
+# Spotify music data visualization
