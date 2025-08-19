@@ -1,1 +1,1 @@
-# Spotify data visualization assignment - Data storytelling
+# Spotify visualization
