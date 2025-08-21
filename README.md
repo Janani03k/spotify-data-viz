@@ -1,93 +1,81 @@
-Spotify Data Visualization & Analysis
-📌 Project Overview
+# Spotify Data Visualization & Analysis
 
-This project explores Spotify’s top songs dataset through data cleaning, transformation, and visualization. Using Python, Pandas, and visualization libraries, I analyzed global music trends and provided meaningful insights into song popularity, audio features, and artist performance.
+## 📌 Project Overview
 
-The project is implemented in Jupyter Notebooks:
+This assignment from Storytelling with Data explores **Spotify’s top songs dataset** through data cleaning, transformation, and visualization. Using Python, Pandas, and visualization libraries, I analyzed global music trends and provided meaningful insights into song popularity, audio features, and artist performance.
 
-4_Spotify_DataViz.ipynb – Contains data exploration, cleaning, and visualization steps.
+The project is implemented in Jupyter Notebooks.
 
-Spotify_Assignment4_Janani_Karthikeyan.ipynb – Extended analysis and assignment submission.
+The dataset used: **`universal_top_spotify_songs.csv`** with over **1.6 million records** and 25 features.
 
-The dataset used: universal_top_spotify_songs.csv with over 1.6 million records and 25 features.
+---
 
-📂 Dataset Information
+## 📂 Dataset Information
 
-File: universal_top_spotify_songs.csv
-Shape: 1,692,294 rows × 25 columns
+**File:** `universal_top_spotify_songs.csv`
+**Shape:** `1,692,294 rows × 25 columns`
 
-Key Columns:
+### Key Columns:
 
-spotify_id – Unique ID of the track
+* `spotify_id` – Unique ID of the track
+* `name` – Song title
+* `artists` – Artist(s) of the track
+* `daily_rank`, `weekly_movement` – Chart performance
+* `country`, `snapshot_date` – Country & date context
+* `popularity`, `is_explicit` – Popularity score & explicit flag
+* Audio Features:
 
-name – Song title
+  * `danceability`, `energy`, `key`, `loudness`, `mode`
+  * `speechiness`, `acousticness`, `instrumentalness`
+  * `liveness`, `valence`, `tempo`, `time_signature`
 
-artists – Artist(s) of the track
+---
 
-daily_rank, weekly_movement – Chart performance
+## 🛠️ Tools & Libraries
 
-country, snapshot_date – Country & date context
+* **Python**
+* **Pandas, NumPy** – Data manipulation
+* **Matplotlib, Seaborn** – Visualization
+* **Jupyter Notebook** – Development environment
 
-popularity, is_explicit – Popularity score & explicit flag
+---
 
-Audio Features:
+## 🔑 Features of the Analysis
 
-danceability, energy, key, loudness, mode
+* Data Cleaning (handling missing values, formatting dates, filtering columns)
+* Exploratory Data Analysis (EDA) on audio features and popularity
+* Artist & Song Popularity Rankings
+* Correlation between **audio features** (danceability, energy, valence) and popularity
+* Visualization of trends in global top charts
 
-speechiness, acousticness, instrumentalness
+---
 
-liveness, valence, tempo, time_signature
+## 📊 Example Insights
 
-🛠️ Tools & Libraries
+* Distribution of explicit vs. non-explicit songs
+* Relationship between **danceability** and **popularity**
+* Top recurring artists in global charts
+* Temporal trends in Spotify charts
 
-Python
+---
 
-Pandas, NumPy – Data manipulation
+## 🚀 How to Run
 
-Matplotlib, Seaborn – Visualization
+1. Clone the repository or download the notebooks.
+2. Place `universal_top_spotify_songs.csv` in the same directory.
+3. Install dependencies:
 
-Jupyter Notebook – Development environment
+   ```bash
+   pip install pandas numpy matplotlib seaborn jupyter
+   ```
+4. Open Jupyter Notebook and run:
 
-🔑 Features of the Analysis
+   * `Spotify_Assignment4_Janani_Karthikeyan.ipynb`
 
-Data Cleaning (handling missing values, formatting dates, filtering columns)
+---
 
-Exploratory Data Analysis (EDA) on audio features and popularity
+## 👩‍💻 Author
 
-Artist & Song Popularity Rankings
-
-Correlation between audio features (danceability, energy, valence) and popularity
-
-Visualization of trends in global top charts
-
-📊 Example Insights
-
-Distribution of explicit vs. non-explicit songs
-
-Relationship between danceability and popularity
-
-Top recurring artists in global charts
-
-Temporal trends in Spotify charts
-
-🚀 How to Run
-
-Clone the repository or download the notebooks.
-
-Place universal_top_spotify_songs.csv in the same directory.
-
-Install dependencies:
-
-pip install pandas numpy matplotlib seaborn jupyter
-
-
-Open Jupyter Notebook and run either:
-
-4_Spotify_DataViz.ipynb
-
-Spotify_Assignment4_Janani_Karthikeyan.ipynb
-
-👩‍💻 Author
-
-Janani Karthikeyan
+**Janani Karthikeyan**
 Master’s in Data Analytics Engineering, Northeastern University
+
