@@ -71,11 +71,3 @@ The dataset used: **`universal_top_spotify_songs.csv`** with over **1.6 million 
 4. Open Jupyter Notebook and run:
 
    * `Spotify_Assignment4_Janani_Karthikeyan.ipynb`
-
----
-
-## 👩‍💻 Author
-
-**Janani Karthikeyan**
-Master’s in Data Analytics Engineering, Northeastern University
-
